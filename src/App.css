@@ -14,12 +14,21 @@ body {
   background: #4167b2;
 }
 
-.Input {
+.Input, .Post {
   border: 1px solid hsl(216, 8%, 88%);
   border-radius: 4px;
   width: 576px;
   margin: 20px auto;
   background-color: #ffffff;
+}
+
+.Post {
+  padding: 15px;
+}
+
+.Post__image {
+  width: 100%;
+  margin-top: 15px;
 }
 
 .Input__header {
@@ -41,4 +50,12 @@ body {
 
 .Input__field:focus {
   outline: none;
+}
+
+.Post__delete {
+  border: none;
+  background: none;
+  padding: 0;
+  float: right;
+  cursor: pointer;
 }
